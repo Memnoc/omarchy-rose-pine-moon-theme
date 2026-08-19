@@ -57,18 +57,18 @@ matches Omarchy 4's stock themes exactly.
 
 ## Wallpapers
 
-Four are included; cycle them with `omarchy theme bg next`.
+Two are included, both official Rosé Pine Moon wallpapers from
+[rose-pine/wallpapers](https://github.com/rose-pine/wallpapers) (CC0-1.0 — public
+domain, used with credit as a courtesy rather than a requirement). Cycle them with
+`omarchy theme bg next`.
 
 | | |
 |---|---|
-| ![moon](assets/wallpaper-moon.jpg) | ![contours](assets/wallpaper-contours.jpg) |
-| `1-moon-night.jpg` | `2-contours.jpg` |
-| ![mesh](assets/wallpaper-mesh.jpg) | *(plus `4-base.png`, flat `#232136`)* |
-| `3-mesh.jpg` | |
+| ![leafy moon](assets/wallpaper-leafy-moon.jpg) | ![block wave moon](assets/wallpaper-block-wave-moon.png) |
+| `1-leafy-moon.jpg` | `2-block-wave-moon.png` |
 
-All are generated from the palette rather than photographic, so they stay dark
-and low-contrast enough to keep desktop text legible. Add your own to
-`~/.config/omarchy/backgrounds/rose-pine-moon/` without touching the theme.
+Add your own to `~/.config/omarchy/backgrounds/rose-pine-moon/` without touching
+the theme.
 
 ## What's included
 
@@ -78,7 +78,7 @@ and low-contrast enough to keep desktop text legible. Add your own to
 | `neovim.lua` | pulls `rose-pine/neovim` at priority 1000, sets `rose-pine-moon` |
 | `vscode.json` | Rosé Pine Moon via the `mvllow.rose-pine` extension |
 | `icons.theme` | `Yaru-purple` |
-| `backgrounds/` | four wallpapers |
+| `backgrounds/` | two official Rosé Pine Moon wallpapers |
 | `preview.png` | palette card for the theme picker |
 | `unlock.png`, `preview-unlock.png` | Plymouth boot logo and boot-screen preview |
 
@@ -99,6 +99,9 @@ Chromium picks a sensible dark frame on its own.
   [theming guide](https://omarchy.org/manual/making-your-own-theme/).
 - `unlock.png` / `preview-unlock.png` are the Omarchy wordmark recoloured to this
   theme's accent, matching how the stock themes ship theirs.
+- Wallpapers: `1-leafy-moon.jpg` by [fvrests](https://github.com/fvrests) and
+  `2-block-wave-moon.png` by [ng-hai](https://github.com/ng-hai), both from
+  [rose-pine/wallpapers](https://github.com/rose-pine/wallpapers) (CC0-1.0).
 
 ## Licence
 
