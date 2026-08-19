@@ -1,5 +1,3 @@
-![Rosé Pine Moon](assets/banner.jpg)
-
 # Rosé Pine Moon for Omarchy
 
 The **Moon** variant of [Rosé Pine](https://rosepinetheme.com) as an
