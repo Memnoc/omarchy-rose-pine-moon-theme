@@ -1,4 +1,7 @@
-# Rosé Pine Moon for Omarchy
+<p align="center">
+    <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
+    <h2 align="center">Rosé Pine Moon for Omarchy</h2>
+</p>
 
 The **Moon** variant of [Rosé Pine](https://rosepinetheme.com) as an
 [Omarchy](https://omarchy.org) theme.
