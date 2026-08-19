@@ -1,13 +1,13 @@
+![Rosé Pine Moon](assets/banner.jpg)
+
 # Rosé Pine Moon for Omarchy
 
 The **Moon** variant of [Rosé Pine](https://rosepinetheme.com) as an
 [Omarchy](https://omarchy.org) theme.
 
 Omarchy ships a stock `rose-pine` theme, but it is the light **Dawn** variant.
-This is the mid-dark **Moon** variant — the same palette family, but built for a
-dark desktop.
-
-![preview](preview.png)
+This is the mid-dark **Moon** variant — same palette family, built for a dark
+desktop.
 
 ## Install
 
@@ -16,13 +16,20 @@ omarchy theme install https://github.com/Memnoc/omarchy-rose-pine-moon-theme.git
 ```
 
 Omarchy clones this into `~/.config/omarchy/themes/rose-pine-moon` and applies it
-straight away. To switch back and forth afterwards:
+straight away. Afterwards:
 
 ```bash
 omarchy theme set "Rose Pine Moon"
+omarchy theme bg next          # cycle the wallpapers
 ```
 
+## In use
+
+![Terminal](assets/terminal.png)
+
 ## Palette
+
+![Palette](assets/palette.png)
 
 | role | hex | used for |
 |------|-----|----------|
@@ -44,26 +51,38 @@ The green/cyan/blue slots follow upstream Rosé Pine's terminal mapping
 teal-blue. That is intentional and matches every other Rosé Pine terminal port.
 
 `dark_background` and `darker_background` are derived from `base` at roughly
-0.73× and 0.53×, the same steps Omarchy's other dark themes use.
+0.73× and 0.53×, the same steps Omarchy's other dark themes use. The key set
+matches Omarchy 4's stock themes exactly.
+
+## Wallpapers
+
+Four are included; cycle them with `omarchy theme bg next`.
+
+| | |
+|---|---|
+| ![moon](assets/wallpaper-moon.jpg) | ![contours](assets/wallpaper-contours.jpg) |
+| `1-moon-night.jpg` | `2-contours.jpg` |
+| ![mesh](assets/wallpaper-mesh.jpg) | *(plus `4-base.png`, flat `#232136`)* |
+| `3-mesh.jpg` | |
+
+All are generated from the palette rather than photographic, so they stay dark
+and low-contrast enough to keep desktop text legible. Add your own to
+`~/.config/omarchy/backgrounds/rose-pine-moon/` without touching the theme.
 
 ## What's included
 
 | file | purpose |
 |------|---------|
 | `colors.toml` | the palette Omarchy templates into ~17 apps |
-| `neovim.lua` | pulls `rose-pine/neovim`, sets `rose-pine-moon` |
+| `neovim.lua` | pulls `rose-pine/neovim` at priority 1000, sets `rose-pine-moon` |
 | `vscode.json` | Rosé Pine Moon via the `mvllow.rose-pine` extension |
 | `icons.theme` | `Yaru-purple` |
-| `backgrounds/` | three wallpapers (solid, gradient, radial) |
+| `backgrounds/` | four wallpapers |
 | `preview.png` | palette card for the theme picker |
 | `unlock.png`, `preview-unlock.png` | Plymouth boot logo and boot-screen preview |
 
 There is deliberately no `chromium.theme`: Omarchy's dark themes ship none, and
 Chromium picks a sensible dark frame on its own.
-
-The backgrounds are simple generated gradients in the Moon palette rather than
-artwork — drop anything you prefer into `backgrounds/`, or add your own without
-touching the theme at `~/.config/omarchy/backgrounds/rose-pine-moon/`.
 
 ## Credits
 
