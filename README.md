@@ -87,6 +87,15 @@ Chromium picks a sensible dark frame on its own.
 ## Credits
 
 - Palette: [Rosé Pine](https://rosepinetheme.com), used under its MIT licence.
+  Rosé Pine distinguishes **official** themes (transferred into their GitHub
+  org) from **community** themes (listed on their site, repo stays with the
+  author). This port is neither, yet — it's not currently listed on
+  rosepinetheme.com in either category. See their
+  [Create a theme](https://rosepinetheme.com/create) guide if you'd like to
+  build or submit one.
+- Platform: [Omarchy](https://omarchy.org), whose theme framework (`colors.toml`
+  templated into ~17 apps) this port fills in. Built following Omarchy's own
+  [theming guide](https://omarchy.org/manual/making-your-own-theme/).
 - `unlock.png` / `preview-unlock.png` are the Omarchy wordmark recoloured to this
   theme's accent, matching how the stock themes ship theirs.
 
