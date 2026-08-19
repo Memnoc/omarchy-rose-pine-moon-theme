@@ -79,7 +79,7 @@ the theme.
 | `vscode.json` | Rosé Pine Moon via the `mvllow.rose-pine` extension |
 | `icons.theme` | `Yaru-purple` |
 | `backgrounds/` | two official Rosé Pine Moon wallpapers |
-| `preview.png` | palette card for the theme picker |
+| `preview.png` | real desktop screenshot for the theme picker |
 | `unlock.png`, `preview-unlock.png` | Plymouth boot logo and boot-screen preview |
 
 There is deliberately no `chromium.theme`: Omarchy's dark themes ship none, and
